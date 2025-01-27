@@ -36,6 +36,8 @@
     font-size: 1.125rem;
 }
 
+
+
 .btn[aria-label] {
     position: relative;
     &::before {
@@ -62,6 +64,18 @@
         background: var(--brand-gradient);
         -webkit-background-clip: text;
         background-clip: text;
+    }
+}
+
+@media (width >= 80em) {
+    .btn-sm {
+        padding: .75rem 1.5rem;
+        font-size: var(--fs-base);
+    }
+
+    .btn-md {
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
     }
 }
 
