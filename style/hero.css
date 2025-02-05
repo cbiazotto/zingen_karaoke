@@ -1,6 +1,5 @@
 #hero {
     text-align: center;
-    background-image: url(../assets/icons/bg-mobile.svg);
 
     & img[src*="music"] {
         width: 12.875rem;
@@ -27,7 +26,7 @@
 
 @media (width >= 80em) {
     #hero {
-        background: url(../assets/icons/bg-desktop.svg) no-repeat bottom center/cover;
+        background: url(../assets/icons/bg-desktop.svg) no-repeat bottom center;
         padding-bottom: 15rem;
 
         & img[src*="music"] {
